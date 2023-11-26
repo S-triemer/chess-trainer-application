@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+chess-trainer-backend/venv/
+chess-trainer-backend/__pycache__/
+chess-trainer-backend/*.pyc
+chess-trainer-frontend/node_modules
+chess-trainer-frontend/.DS_Store
+chess-trainer-frontend/dist
+chess-trainer-frontend/dist-ssr
+chess-trainer-frontend/coverage
+*.local
+
+chess-trainer-frontend/cypress/videos/
+chess-trainer-frontend/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
